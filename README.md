@@ -6,6 +6,7 @@
 	<img src="https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge" /> 
 </div>
 
+Bem Vindos! 
 Este é o repositório do meu site de portfólio pessoal, desenvolvido com HTML, CSS e JavaScript. O site inclui informações sobre mim, meus projetos, habilidades e formas de contato.
 
 ## Tecnologias Utilizadas
