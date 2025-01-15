@@ -16,104 +16,114 @@
 		<title>Meu Portfólio</title>
 	</head>
 	<body>
+
 		<!-- Cabeçalho da Página (header) -->
 		<header>
+
 			<!-- Div Conteudo do Cabeçalho -->
 			<div id="header_content" class="flex">
+
 				<!-- Titulo do Cabeçalho -->
 				<div id="titulo">
-					<!-- Seu nome -->
+
 					<h1>Lucas Matheus</h1>
+
 				</div>
 
 				<!-- Conteudo do Menu da Página (header) -->
 				<div id="menu">
+
 					<!-- Menu da Página -->
 					<nav>
+
 						<!-- Marcadores não ordenados + links -->
 						<ul id="menu">
 							<li>
-								<a href="/pages/index.html">Home</a>
+								<a href="index.html">Home</a>
 							</li>
 							<li>
-								<a href="/pages/contato.html">Contato</a>
+								<a href="contato.html">Contato</a>
 							</li>
 						</ul>
+
 					</nav>
+
 				</div>
+
 			</div>
+
 		</header>
 
 		<!-- Seção Principal da Página (main) -->
 		<main>
-			<div id="contact" class="flex">
-				<!-- Seção Formulário de Contato-->
-				<form action="#" method="submit">
-					<label for="nome">Nome: </label>
-					<input
-						id="nome"
-						type="text"
-						name="name"
-						placeholder="Digite seu nome"
-					/>
-					<span id="txtNome"></span>
 
-					<label for="email">Email: </label>
-					<input
-						id="email"
-						type="email"
-						name="email"
-						placeholder="Digite seu email"
-					/>
-					<span id="txtEmail"></span>
+			<!-- Seção Sobre você -->
+			<section id="about" class="flex_start">
 
-					<label for="subject">Assunto: </label>
-					<input
-						id="subject"
-						type="text"
-						name="subject"
-						placeholder="Digite o título da mensagem"
-					/>
-					<span id="txtSubject"></span>
+				<!-- Título da Seção -->
+				<h2>Sobre Mim:</h2>
 
-					<label for="message">Mensagem: </label>
-					<textarea
-						id="message"
-						name="message"
-						placeholder="Digite sua mensagem"
-					></textarea>
+				
+				<div id="conteudo" class="flex">
 
-					<button type="submit">Enviar</button>
-				</form>
-
-				<!-- Seção do Google Maps -->
-				<section id="mapa" class="flex_start">
 					
-					<div id="endereco">
-						<p>Centro</p>
-						<p>Rio de Janeiro - RJ</p>
-					</div>
+					<img
+						src="/assets/img/minha foto.PNG"
+						alt="Foto do criador desse conteudo"
+						class="img_profile"
+					/>
 
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10394.922500769466!2d-43.17964622636701!3d-22.907465127073277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1736265119621!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa" tabindex="0">
+					
+					<article id="sobre_texto">
 
-                    </iframe>
-				</section>
-			</div>
+						<p>
+							Me chamo Lucas, tenho 23 anos e sou natural do Rio de Janeiro. Atualmente, sou graduando em Ciência da Computação e estou participando do bootcamp da Generation Brasil para realizar minha transição de carreira. Nesse processo, estou adquirindo sólidos conhecimentos em Java, Spring, MySQL, React, JavaScript, HTML/CSS e Git, com o objetivo de me tornar um Desenvolvedor Full Stack Java Jr. Sou apaixonado por tecnologia e estou determinado a superar desafios, crescer como programador e me tornar excelente na área.
+						</p>
+						
+					</article>
+
+				</div>
+
+			</section>
+
+			
+			<section id="video" class="flex_start">
+
+				
+				<h2>Minha música favorita:</h2>
+
+				
+				<div id="youtube">
+
+					<iframe width="850" height="500" src="https://www.youtube.com/embed/4PNmrGkiXUE" title="DVD - Mil Trutas Mil Tretas - A vida é desafio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+				</div>
+
+			</section>
+			
 		</main>
 
 		<!-- Rodapé da Página (footer) -->
 		<footer class="flex">
+
 			<!-- Seção de Contato - Redes Sociais-->
 			<section id="redes_sociais">
+
 				<a href="https://www.linkedin.com/in/lucas-matheus-lima/" target="_blank">
 					<img src="/assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
 				</a>
 				<a href="https://github.com/lucas-matheus30/" target="_blank">
 					<img src="/assets/img/github.svg" alt="Github" class="social_icon"/>
 				</a>
+				
 			</section>
 
 			<h3>Feito por Lucas Matheus - 2025</h3>
+
 		</footer>
+
+		<!-- Script JavaScript-->
+		<script src="/js/script.js"></script>
+		
 	</body>
 </html>
