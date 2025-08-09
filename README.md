@@ -46,31 +46,6 @@ yarn dev
 - `npm run lint` - Executa o linter ESLint
 - `npm run preview` - Visualiza a build de produção localmente
 
-## 🚀 Deploy no Vercel
-
-1. **Conecte com GitHub:**
-   - Acesse [vercel.com](https://vercel.com)
-   - Faça login com sua conta GitHub
-   - Clique em "New Project"
-
-2. **Importe o repositório:**
-   - Selecione o repositório do portfolio
-   - Vercel detectará automaticamente que é um projeto Vite
-
-3. **Configure o projeto:**
-   - **Framework Preset:** Vite
-   - **Build Command:** `npm run build`
-   - **Output Directory:** `dist`
-   - **Install Command:** `npm install`
-
-4. **Deploy:**
-   - Clique em "Deploy"
-   - Aguarde a build ser concluída
-
-5. **Configurações adicionais (opcional):**
-   - **Environment Variables:** Se necessário
-   - **Domain:** Configure um domínio personalizado
-
 ## 📁 Estrutura do Projeto
 
 ```
